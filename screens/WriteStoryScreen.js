@@ -18,7 +18,7 @@ export default class WriteStoryScreen extends React.Component{
             Write_Your_Story :this.state.Story
          })
          
-         Alert.alert('Student added')
+         Alert.alert('story added')
          //ToastAndroid.show('Book Issued',ToastAndroid.SHORT)
          this.setState({Author:'',Title:'',Story:''})
      }
